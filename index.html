@@ -1,38 +1,75 @@
 <!DOCTYPE html>
 <html lang="ms">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio Saya</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio Profesional</title>
+  <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
-
-  <header class="header">
-    <div class="logo">
-      <div class="logo-animation">🌀</div>
-      <h1>Nama Anda</h1>
+  <header>
+    <div class="container header-container">
+      <div class="logo">
+        <div class="logo-circle"></div>
+        <span class="logo-text">Nama Anda</span>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#tentang">Tentang</a></li>
+          <li><a href="#kemahiran">Kemahiran</a></li>
+          <li><a href="#projek">Projek</a></li>
+          <li><a href="#hubungi">Hubungi</a></li>
+        </ul>
+      </nav>
     </div>
-    <nav class="nav">
-      <ul>
-        <li><a href="#">Utama</a></li>
-        <li><a href="#">Tentang</a></li>
-        <li><a href="#">Projek</a></li>
-        <li><a href="#">Hubungi</a></li>
-      </ul>
-    </nav>
   </header>
 
-  <main class="main-content">
-    <section class="hero">
-      <h2>Selamat Datang ke Portfolio Saya</h2>
-      <p>Saya seorang pembangun web dengan minat dalam reka bentuk moden dan animasi interaktif.</p>
-    </section>
-  </main>
+  <section class="hero">
+    <div class="container">
+      <h1>Hai, saya <span class="highlight">Nama Anda</span></h1>
+      <p>Seorang pembangun web yang berdedikasi dan kreatif, bersedia menyumbang kepada pasukan anda.</p>
+    </div>
+  </section>
+
+  <section id="tentang" class="content-section">
+    <div class="container">
+      <h2>Tentang Saya</h2>
+      <p>Saya memiliki latar belakang dalam pembangunan web dan minat terhadap reka bentuk yang bersih, interaktif, dan responsif.</p>
+    </div>
+  </section>
+
+  <section id="kemahiran" class="content-section grey-bg">
+    <div class="container">
+      <h2>Kemahiran</h2>
+      <ul class="skills">
+        <li>HTML5 & CSS3</li>
+        <li>JavaScript</li>
+        <li>React / Vue</li>
+        <li>UI/UX Design</li>
+        <li>Git & GitHub</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projek" class="content-section">
+    <div class="container">
+      <h2>Projek</h2>
+      <p><em>Sertakan pautan atau tangkapan skrin projek anda di sini.</em></p>
+    </div>
+  </section>
+
+  <section id="hubungi" class="content-section grey-bg">
+    <div class="container">
+      <h2>Hubungi Saya</h2>
+      <p>Emel: <a href="mailto:anda@email.com">anda@email.com</a></p>
+      <p>LinkedIn: <a href="#" target="_blank">linkedin.com/in/anda</a></p>
+    </div>
+  </section>
 
   <footer>
-    <p>© 2025 Nama Anda. Semua hak cipta terpelihara.</p>
+    <div class="container">
+      <p>© 2025 Nama Anda. Semua hak cipta terpelihara.</p>
+    </div>
   </footer>
-
 </body>
 </html>
